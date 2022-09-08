@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+main {
+    height: 200px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    background-color: black;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 0 3px 0.6px blue;
+}
+.date {
+    border: yellow;
+    font-size: 0.5rem;
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.calculate {
+    font-size: 0.6rem;
+    width: 50px; height: 25px;
+    border: none;
+    border-radius: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inner-boxes {
+    background-color: aqua; height: 65px;
+    width: 50px; margin: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 1px 0.1px black;
+}
+.number {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white; font-size: 1.6rem;
+}
+.label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.4rem;
+    color: white;
+}
